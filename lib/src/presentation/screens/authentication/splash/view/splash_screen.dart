@@ -192,22 +192,22 @@ class _SplashScreenState extends State<SplashScreen>
                                 PngAssets.appScreenIcon,
                                 height: 50.h,
                               ),
-                              SizedBox(width: 4.w),
-                              FadeTransition(
-                                opacity: _textFadeAnimation,
-                                child: SlideTransition(
-                                  position: _textSlideAnimation,
-                                  child: Text(
-                                    "ara",
-                                    style: TextStyle(
-                                      letterSpacing: 0,
-                                      fontSize: 60.sp,
-                                      fontWeight: FontWeight.w900,
-                                      color: AppColors.lightTextPrimary,
-                                    ),
-                                  ),
-                                ),
-                              ),
+                              // SizedBox(width: 4.w),
+                              // FadeTransition(
+                              //   opacity: _textFadeAnimation,
+                              //   child: SlideTransition(
+                              //     position: _textSlideAnimation,
+                              //     child: Text(
+                              //       "ara",
+                              //       style: TextStyle(
+                              //         letterSpacing: 0,
+                              //         fontSize: 60.sp,
+                              //         fontWeight: FontWeight.w900,
+                              //         color: AppColors.lightTextPrimary,
+                              //       ),
+                              //     ),
+                              //   ),
+                              // ),
                             ],
                           ),
                         ),
